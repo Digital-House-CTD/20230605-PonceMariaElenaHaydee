@@ -1,0 +1,2 @@
+git init git branch git status git checkout
+git add .

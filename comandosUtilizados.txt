@@ -1,0 +1,31 @@
+  284  git init
+  285  git remote add origin https://github.com/Digital-House-CTD/20230605-PonceMariaElenaHaydee.git
+  286  touch comandos.txt main.js index.html
+  287  git add .
+  288  git commit -m"commit 01 de MariaElenaHaydeePonce"
+  289  git push origin main
+  290  git checkout -b"feature01"
+  291  mkdir Terminal Hardware
+  292  cd Terminal
+  293  touch resumen.txt
+  294  cd ..
+  295  cd Hardware
+  296  touch resumen.txt
+  297  git add .
+  298  git commit -m"commit 02 de MariaElenaHaydeePonce"
+  299  git push origin feature01
+  300  git checkout -b"feature02"
+  301  cd ..
+  302  cd Terminal
+  303  nano resumen.txt
+  304  cd ..
+  305  cd Hardware
+  306  nano resumen.txt
+  307  git add .
+  308  git commit -m"commit 03 de MariaElenaHaydeePonce"
+  309  git push origin feature02
+  310  git checkout main
+  311  cd
+  312  cd '/e/2022/PROGRAMACION/CURSOS/DIGITAL HOUSE/INTRODUCCION A LA INFORMATICA/Examen 1/20230605-PonceMariaElenaHaydee'
+  313  mv comandos.txt comandosUtilizados.txt
+  314  history > comandosUtilizados.txt 
